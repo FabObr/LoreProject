@@ -1,4 +1,4 @@
-#Sun Jan 28 17:59:49 CET 2018
-base.0=C\:\\Users\\Adrien\\AndroidStudioProjects\\LoreProject\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\138
+#Sun Jan 28 18:17:33 CET 2018
+base.0=D\:\\Fabien\\Documents\\Fabien\\Esiee\\E4\\LoreProject\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\157
 path.0=classes.dex
 renamed.0=classes.dex

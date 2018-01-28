@@ -1,10 +1,40 @@
 {
     "logs": [
         {
+            "outputFile": "D:\\Fabien\\Documents\\Fabien\\Esiee\\E4\\LoreProject\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Fabien\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\5a8c113ef8c07681ead64594fabba87f\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\Adrien\\AndroidStudioProjects\\LoreProject\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Adrien\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8878902603e1886cfe3e02c01251f1e7\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Fabien\\Documents\\Fabien\\Esiee\\E4\\LoreProject\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Fabien\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\5a8c113ef8c07681ead64594fabba87f\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
