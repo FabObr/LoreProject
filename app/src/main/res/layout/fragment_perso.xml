@@ -1,0 +1,196 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tuto.adrien.projetandroid.BC.perso">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="111dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button2"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlue"
+                    android:text="Illidan"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlue"
+                    android:text="Kael'thas"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlue"
+                    android:text="Gruul"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlue"
+                    android:text="Kil'jaeden"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlue"
+                    android:text="Khadgar"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlue"
+                    android:text="Arator le rédempteur"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlue"
+                    android:text="Magtheridon"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlue"
+                    android:text="Dame Liadrin"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlue"
+                    android:text="Maladaar"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlue"
+                    android:text="aggonar"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorRed"
+                    android:padding="5dp"
+                    android:text="Illidan Hurlorage"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="Illidan Hurlorage est le frère jumeau de Malfurion Hurlorage. Les deux frères grandirent aux côtés de leur amie Tyrande Murmevent, avant la Grande Fracture. Étudiant la magie avec son frère, Illidan manquait de patience pour être initié aux subtilités des arts druidiques et il s'avéra être un piètre disciple, malgré les enseignements du demi-dieu Cénarius. Il se tourna finalement vers les arts arcaniques que son frère avait dédaignés."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorRed"
+                    android:padding="5dp"
+                    android:text="Kael'thas"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="Kael'thas Haut-soleil (Kael'thas Sunstrider) est le dernier représentant de la lignée des Haut-soleil qui dirigeait Quel'thalas. C'est un prince haut-elfe qui a assisté avec impuissance à la destruction totale de Quel'thalas par les armées d'Arthas. "
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorRed"
+                    android:padding="5dp"
+                    android:text="Gruul"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="Gruul laelaelza eldldldzal dazdlazdlll dzadlald aldaldaldald adhoa hih ahdaozd oiaha iuhao dhoau haophaohd oaph opahdoah oah aodhop hio ho ih oho pahdo aopdh ah opahda poihao hapodhaoihd aapohao ho haoidh aph opih pahd poah ^phad poa dhiaoidp ha ophap oh phi poah ph "
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>

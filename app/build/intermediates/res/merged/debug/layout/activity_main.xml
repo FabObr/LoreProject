@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/partie1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp">
+
+        <ImageButton
+            android:id="@+id/bcbutton"
+            android:background="@drawable/bc_logo"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:id="@+id/vanillabutton"
+            android:background="@drawable/vanilla_logo"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"/>
+
+    </RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/partie2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp">
+
+    <ImageButton
+        android:id="@+id/wotlkbutton"
+        android:background="@drawable/wotlk_logo"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/catabutton"
+        android:background="@drawable/cataclysm_logo"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/partie3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <ImageButton
+            android:id="@+id/mopbutton"
+            android:background="@drawable/mop_logo"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:id="@+id/wodbutton"
+            android:background="@drawable/wod_logo"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/legionbutton"
+        android:background="@drawable/legion_logo"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+ />
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+#Sun Jan 28 10:54:18 CET 2018
+base.0=D\:\\Fabien\\Documents\\Fabien\\Esiee\\E4\\ProjetAndroid\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex
