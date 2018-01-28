@@ -12,9 +12,18 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 import tuto.adrien.projetandroid.R;
 
 public class Cata extends AppCompatActivity {
+
+    FirebaseDatabase database;
+    DatabaseReference myRef;
 
     Button fragment1, fragment2, fragment3;
     TextView tv1;
@@ -49,6 +58,26 @@ public class Cata extends AppCompatActivity {
                 loadFragment(new ThirdFragment());
             }
         });
+
+        database = FirebaseDatabase.getInstance();
+        myRef = database.getReference("Vanilla");
+
+        //Génère un message via la BDD Firebase
+        myRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                String value = dataSnapshot.getValue(String.class);
+                TextView textView = (TextView) findViewById(R.id.textViewVanilla);
+                textView.setText(value);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+
     }
 
     private void loadFragment(Fragment fragment) {

@@ -2,9 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/fragment_lore_bc"
     tools:context="tuto.adrien.projetandroid.BC.lore">
 
     <TextView
+        android:id="@+id/textLoreBc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="bclore"/>

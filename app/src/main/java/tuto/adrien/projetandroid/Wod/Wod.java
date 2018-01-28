@@ -12,9 +12,18 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 import tuto.adrien.projetandroid.R;
 
 public class Wod extends AppCompatActivity {
+
+    FirebaseDatabase database;
+    DatabaseReference myRef;
 
     Button fragment1, fragment2, fragment3;
     TextView tv1;
@@ -27,7 +36,7 @@ public class Wod extends AppCompatActivity {
         fragment1 = (Button) findViewById(R.id.fragment1);
         fragment2 = (Button) findViewById(R.id.fragment2);
         fragment3 = (Button) findViewById(R.id.fragment3);
-        tv1 = findViewById(R.id.textView4);
+        tv1 = findViewById(R.id.textViewWod);
 
         fragment1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,6 +56,24 @@ public class Wod extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 loadFragment(new ThirdFragment());
+            }
+        });
+
+        database = FirebaseDatabase.getInstance();
+        myRef = database.getReference("WOD");
+
+        //Génère un message via la BDD Firebase
+        myRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                String value = dataSnapshot.getValue(String.class);
+                TextView textView = (TextView) findViewById(R.id.textViewWod);
+                textView.setText(value);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
             }
         });
     }

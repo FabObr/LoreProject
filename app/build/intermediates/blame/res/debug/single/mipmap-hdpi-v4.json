@@ -1,10 +1,10 @@
 [
     {
-        "merged": "D:\\Fabien\\Documents\\Fabien\\Esiee\\E4\\ProjetAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
-        "source": "D:\\Fabien\\Documents\\Fabien\\Esiee\\E4\\ProjetAndroid\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Adrien\\AndroidStudioProjects\\LoreProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher_round.png",
+        "source": "C:\\Users\\Adrien\\AndroidStudioProjects\\LoreProject\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Fabien\\Documents\\Fabien\\Esiee\\E4\\ProjetAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher_round.png",
-        "source": "D:\\Fabien\\Documents\\Fabien\\Esiee\\E4\\ProjetAndroid\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Adrien\\AndroidStudioProjects\\LoreProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Adrien\\AndroidStudioProjects\\LoreProject\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]
