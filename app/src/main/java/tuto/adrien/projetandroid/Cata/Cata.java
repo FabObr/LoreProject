@@ -60,14 +60,14 @@ public class Cata extends AppCompatActivity {
         });
 
         database = FirebaseDatabase.getInstance();
-        myRef = database.getReference("Vanilla");
+        myRef = database.getReference("CATA");
 
         //Génère un message via la BDD Firebase
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String value = dataSnapshot.getValue(String.class);
-                TextView textView = (TextView) findViewById(R.id.textViewVanilla);
+                TextView textView = (TextView) findViewById(R.id.textViewCata);
                 textView.setText(value);
             }
 

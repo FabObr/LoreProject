@@ -1,15 +1,43 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/fond"
     android:orientation="vertical" >
 
     <RelativeLayout
+        android:id="@+id/partie0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageButton
+        android:id="@+id/link"
+        android:background="@drawable/index"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/link2"
+        android:background="@drawable/wowhead_logo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <RelativeLayout
         android:id="@+id/partie1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp">
+        android:layout_marginTop="20dp">
 
         <ImageButton
             android:id="@+id/bcbutton"

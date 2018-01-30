@@ -6,10 +6,14 @@ import android.app.PendingIntent;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import tuto.adrien.projetandroid.BC.bc;
 import tuto.adrien.projetandroid.Cata.Cata;
@@ -281,5 +285,26 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton mmochamp = (ImageButton)findViewById(R.id.link);
+        mmochamp.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View arg0)
+            {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.mmo-champion.com/content/"));
+                startActivity(browserIntent);
+
+            }
+        });
+
+        ImageButton wowhead = (ImageButton)findViewById(R.id.link2);
+        wowhead.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View arg0)
+            {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://fr.wowhead.com/"));
+                startActivity(browserIntent);
+
+            }
+        });
     }
 }
