@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Fabien\\Documents\\Fabien\\Esiee\\E4\\LoreProject\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "C:\\Users\\Fabien\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\efb46bcc07179c44e47402aabb724e8f\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Adrien\\AndroidStudioProjects\\LoreProject\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v23\\abc_control_background_material.xml",
         "source": "C:\\Users\\Adrien\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8878902603e1886cfe3e02c01251f1e7\\res\\drawable-v23\\abc_control_background_material.xml"
     }

@@ -1,6 +1,21 @@
 {
     "logs": [
         {
+            "outputFile": "D:\\Fabien\\Documents\\Fabien\\Esiee\\E4\\LoreProject\\app\\build\\intermediates\\res\\merged\\debug\\values-v13\\values-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Fabien\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\efb46bcc07179c44e47402aabb724e8f\\res\\values-v13\\values-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\Adrien\\AndroidStudioProjects\\LoreProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v13\\values-v13.xml",
             "map": [
                 {
@@ -20,6 +35,21 @@
             "map": [
                 {
                     "source": "C:\\Users\\Adrien\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8878902603e1886cfe3e02c01251f1e7\\res\\values-v13\\values-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Fabien\\Documents\\Fabien\\Esiee\\E4\\LoreProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v13\\values-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Fabien\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\efb46bcc07179c44e47402aabb724e8f\\res\\values-v13\\values-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

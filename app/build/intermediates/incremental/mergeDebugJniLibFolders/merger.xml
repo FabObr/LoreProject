@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Adrien\AndroidStudioProjects\LoreProject\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\Adrien\AndroidStudioProjects\LoreProject\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\Fabien\Documents\Fabien\Esiee\E4\LoreProject\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\Fabien\Documents\Fabien\Esiee\E4\LoreProject\app\src\debug\jniLibs"/></dataSet></merger>

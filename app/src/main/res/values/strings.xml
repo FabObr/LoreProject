@@ -1,7 +1,71 @@
 <resources>
-    <string name="app_name">ProjetAndroid</string>
+    <string name="app_name">LoreWow</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="wowhead">Support: <a href="http://www.stackoverflow.com">Click here</a></string>
+    <string-array name="Lieux">
+        <item>Azeroth</item>
+        <item>Peninsule</item>
+        <item>Draenor</item>
+        <item>Azeroth</item>
+        <item>Cabestan</item>
+        <item>Draenor</item>
+        <item>Peninsule</item>
+        <item>Azeroth</item>
+        <item>Peninsule</item>
+        <item>Draenor</item>
+        <item>Ombrelune</item>
+        <item>Azeroth</item>
+        <item>Peninsule</item>
+        <item>Draenor</item>
+    </string-array>
+
+    <string-array name="LieuxDes">
+        <item>Azeroth est le nom du monde dans lequel se déroule la plus grande partie des titres
+            de la série Warcraft. C est le monde d origine de nombreuses races, les plus proéminentes
+            étant les elfes (comprenant les elfes de la nuit, les hauts-elfes, et les elfes de sang),
+            les humains, les nains, les taurens, les gobelins, les trolls, les gnomes, et les dragons.
+            Au jour de sa création, Azeroth fut bénie par les titans. Un jour, les armées démoniaques
+            de la Légion Ardente firent irruption et brisèrent la paix, ce qui conduit au fractionnement
+            du monde. Peu à peu, certaines races furent attirées vers Azeroth (comme les orcs, les draeneï
+            et les ogres), d autres évoluèrent, et d autres encore surgirent de nulle part. Les peuples
+            d Azeroth ont livré de féroces batailles contre les démons et leurs serviteurs, un conflit
+            qui fait encore couler le sang à ce jour.
+            Après la Troisième Guerre, trois grandes puissances émergèrent : le Fléau, la Horde, et
+            l Alliance. Les nagas, les qiraji et la Croisade Ecarlate représentent d autres forces
+            influentes. Bien que ravagée par les combats, que ce soit à force de tromperie, de
+            trahison ou de véritables massacres, Azeroth a survécu par quatre fois à la Légion
+            Ardente. Toutefois, Azeroth est toujours déchirée par les conflits, la haine et la guerre.
+        </item>
+    </string-array>
+
+    <string-array name="Lore">
+        <item>Outreterre</item>
+        <item>La bataille du mont Hyjal</item>
+        <item>Conquete de Draenor</item>
+        <item>Le temple noir</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+
+    </string-array>
+
+    <string-array name="LoreDes">
+        <item>Le Temple Noir est une structure menaçante qui se dresse dans les terres dévastées d Outreterre.
+            Autrefois, le lieu qui deviendra le Temple Noir était appelé Temple de Karabor. Il s agissait
+            alors d un site sacré des Draenei, qui fut l une des premières cibles du massacre
+            perpétré par les orcs corrompus par les démons. Les démonistes du Conseil des Ombres
+            en prirent possession et le renommèrent Temple Noir.
+            Seuls quelques groupes de Draenei menés par leur chef Akama parvinrent à
+            s enfuir de ce massacre...
+        </item>
+    </string-array>
 </resources>

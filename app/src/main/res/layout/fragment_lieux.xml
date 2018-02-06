@@ -4,9 +4,25 @@
     android:layout_height="match_parent"
     tools:context="tuto.adrien.projetandroid.BC.lieux">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="bclieux"/>
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal">
+
+        <ListView
+            style="@android:style/Widget.Holo.ListView"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorGreen"
+            android:entries="@array/Lieux"
+            android:scrollbars="vertical"></ListView>
+
+        <ListView
+            android:layout_width="265dp"
+            android:layout_height="match_parent"
+            android:entries="@array/LieuxDes"
+            android:scrollbars="vertical" />
+    </LinearLayout>
 
 </FrameLayout>
