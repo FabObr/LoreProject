@@ -29,13 +29,16 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="tuto.adrien.projetandroid.MainActivity" >
+        <activity
+            android:name="tuto.adrien.projetandroid.SplashScreen"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="tuto.adrien.projetandroid.MainActivity" />
         <activity android:name="tuto.adrien.projetandroid.Vanilla.Vanilla" />
         <activity android:name="tuto.adrien.projetandroid.BC.bc" />
         <activity android:name="tuto.adrien.projetandroid.Woltk.Wotlk" />
