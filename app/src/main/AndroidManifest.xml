@@ -13,7 +13,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:name=".SqliteDemoApplication">
         <activity
             android:name=".SplashScreen"
             android:screenOrientation="portrait">
@@ -30,6 +31,20 @@
         <activity android:name=".Mop.Mop" />
         <activity android:name=".Wod.Wod" />
         <activity android:name=".Legion.Legion" />
+
+        <meta-data
+            android:name="DATABASE"
+            android:value="book.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="tuto.adrien.projetandroid" />
+
     </application>
 
 </manifest>

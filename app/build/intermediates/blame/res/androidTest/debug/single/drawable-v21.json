@@ -8,6 +8,18 @@
         "source": "C:\\Users\\Fabien\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\efb46bcc07179c44e47402aabb724e8f\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
+        "merged": "C:\\Users\\Adrien\\Documents\\GitHub\\LoreProject\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Adrien\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8878902603e1886cfe3e02c01251f1e7\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adrien\\Documents\\GitHub\\LoreProject\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Adrien\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8878902603e1886cfe3e02c01251f1e7\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adrien\\Documents\\GitHub\\LoreProject\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Adrien\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8878902603e1886cfe3e02c01251f1e7\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Adrien\\AndroidStudioProjects\\LoreProject\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\Adrien\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8878902603e1886cfe3e02c01251f1e7\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
@@ -30,5 +42,9 @@
     {
         "merged": "D:\\Fabien\\Documents\\Fabien\\Esiee\\E4\\LoreProject\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\notification_action_background.xml",
         "source": "C:\\Users\\Fabien\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\082f13ca11431b2ddb0d7ffa27f3784b\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adrien\\Documents\\GitHub\\LoreProject\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Adrien\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\65233c772b2b24bffc518dc67023f265\\res\\drawable-v21\\notification_action_background.xml"
     }
 ]

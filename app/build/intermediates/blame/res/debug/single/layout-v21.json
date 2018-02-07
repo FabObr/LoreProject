@@ -8,6 +8,10 @@
         "source": "C:\\Users\\Fabien\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\082f13ca11431b2ddb0d7ffa27f3784b\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
+        "merged": "C:\\Users\\Adrien\\Documents\\GitHub\\LoreProject\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Adrien\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\65233c772b2b24bffc518dc67023f265\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
         "merged": "C:\\Users\\Adrien\\AndroidStudioProjects\\LoreProject\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
         "source": "C:\\Users\\Adrien\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\65233c772b2b24bffc518dc67023f265\\res\\layout-v21\\notification_action.xml"
     },
@@ -20,6 +24,14 @@
         "source": "C:\\Users\\Fabien\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\082f13ca11431b2ddb0d7ffa27f3784b\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
+        "merged": "C:\\Users\\Adrien\\Documents\\GitHub\\LoreProject\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Adrien\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\65233c772b2b24bffc518dc67023f265\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adrien\\Documents\\GitHub\\LoreProject\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Adrien\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\65233c772b2b24bffc518dc67023f265\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
         "merged": "C:\\Users\\Adrien\\AndroidStudioProjects\\LoreProject\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
         "source": "C:\\Users\\Adrien\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\65233c772b2b24bffc518dc67023f265\\res\\layout-v21\\notification_template_icon_group.xml"
     },
@@ -30,5 +42,9 @@
     {
         "merged": "D:\\Fabien\\Documents\\Fabien\\Esiee\\E4\\LoreProject\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
         "source": "C:\\Users\\Fabien\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\082f13ca11431b2ddb0d7ffa27f3784b\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adrien\\Documents\\GitHub\\LoreProject\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Adrien\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\65233c772b2b24bffc518dc67023f265\\res\\layout-v21\\notification_action.xml"
     }
 ]

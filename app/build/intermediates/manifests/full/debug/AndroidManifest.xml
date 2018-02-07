@@ -21,6 +21,7 @@
     <uses-permission android:name="tuto.adrien.projetandroid.permission.C2D_MESSAGE" />
 
     <application
+        android:name="tuto.adrien.projetandroid.SqliteDemoApplication"
         android:allowBackup="true"
         android:debuggable="true"
         android:hardwareAccelerated="false"
@@ -29,7 +30,6 @@
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="tuto.adrien.projetandroid.SplashScreen"
@@ -49,6 +49,18 @@
         <activity android:name="tuto.adrien.projetandroid.Wod.Wod" />
         <activity android:name="tuto.adrien.projetandroid.Legion.Legion" />
 
+        <meta-data
+            android:name="DATABASE"
+            android:value="book.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="tuto.adrien.projetandroid" />
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />

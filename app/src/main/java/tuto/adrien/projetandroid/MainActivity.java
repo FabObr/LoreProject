@@ -14,10 +14,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.List;
 
 import tuto.adrien.projetandroid.BC.bc;
 import tuto.adrien.projetandroid.Cata.Cata;
 import tuto.adrien.projetandroid.Legion.Legion;
+import tuto.adrien.projetandroid.Model.Book;
 import tuto.adrien.projetandroid.Mop.Mop;
 import tuto.adrien.projetandroid.Vanilla.Vanilla;
 import tuto.adrien.projetandroid.Wod.Wod;
@@ -211,8 +215,21 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_main);
+
+        Book.deleteAll(Book.class);
+        Book WOWVanilla = new Book("World of Warcraft Classic");
+        Book WOWLegion = new Book("World of Warcraft Legion");
+        WOWVanilla.save();
+        WOWLegion.save();
+
+        List<Book> list = Book.listAll(Book.class);
+
+        for (Book bk : list) {
+            Toast.makeText(this, bk.getTitle(), Toast.LENGTH_SHORT).show();
+
+        }
+
 
         final ImageButton vanillabutton = findViewById(R.id.vanillabutton);
         vanillabutton.setOnClickListener(new View.OnClickListener() {
